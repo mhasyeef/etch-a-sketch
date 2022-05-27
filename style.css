@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    background-color: lightpink;
+    height: 500px;
+    width: 500px;
+}
+
+.grid{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#grid{
+    display: grid;
+    /*grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
+    justify-content: center;
+    border: 1px solid black;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+
+#a1{
+    border: 1px solid red;
+}
