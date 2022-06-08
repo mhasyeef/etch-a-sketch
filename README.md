@@ -2,7 +2,7 @@
 
 Project: etch-a-sketch
 
-mhasyeef.github.io/etch-a-sketch/
+https://mhasyeef.github.io/etch-a-sketch/
 
 A web based etch-a-sketch game which allows you to make sketches in a pixellated style.
 
