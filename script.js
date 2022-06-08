@@ -40,7 +40,7 @@ function reset(){
     
 }
 
-//to adjust size
+//adjust size via slider
 slider.addEventListener('input', () => {
     let sliderVal = document.getElementById('size').value;
     reset();
