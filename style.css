@@ -6,17 +6,19 @@ body{
 }
 
 .container{
+    --size: 32;
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(32, 1fr);
-    grid-template-rows: repeat(32, 1fr);
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
     background-color: lightpink;
     height: 500px;
     width: 500px;
 }
 
 .grid{
+    --bgColor: #FFFFFF;
     display: grid;
     align-content: center;
     justify-content: center;
@@ -25,13 +27,9 @@ body{
 
 #grid{
     display: grid;
-    /*grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr); */
     justify-content: center;
     border: 1px solid black;
 }
-
-
 
 .title{
     display: flex;
@@ -41,4 +39,12 @@ body{
 
 #a1{
     border: 1px solid red;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
 }
