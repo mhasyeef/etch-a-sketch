@@ -23,4 +23,5 @@ What I've learnt
 2) Generating and manipulating the different elements dynamically through the DOM
 3) Usage of Flexbox and CSS Grid to make it look clean
 
-![image](https://user-images.githubusercontent.com/70051252/172696835-9b3e3607-e06a-46af-8970-1e7c50685c89.png)
+![image](https://user-images.githubusercontent.com/70051252/172697179-2b09d140-8b59-4853-8810-8d61b75e3502.png)
+
