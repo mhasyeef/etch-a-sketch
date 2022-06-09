@@ -5,12 +5,12 @@ const btnRnbw = document.querySelector('#rainbow')
 const btnClear = document.querySelector('#clear')
 const colorPick = document.querySelector('#colorpicker')
 
-let size = 64;
+let size = 32;
 
 function autoPopulate(size){
     container.style.setProperty('--size', size)
-
-    for(let i = 0; i < size*size; i++){         //size*size to get the grid total number
+    let sliderVal = document.getElementById('size').value;
+    for(let i = 0; i < sliderVal*sliderVal; i++){         //size*size to get the grid total number
         const grid = document.createElement('div');
         grid.classList.add('grid');
         container.appendChild(grid);
@@ -22,7 +22,7 @@ function autoPopulate(size){
     }
 }
 
-autoPopulate(size);
+autoPopulate(32);
 
 //to generate random color
 function generateRandomColor(){   
